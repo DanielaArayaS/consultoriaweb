@@ -1,0 +1,12 @@
+body.modo-oscuro {
+    background-color: #121212;
+    color: #fff;
+}
+
+header.modo-oscuro {
+    background-color: #005bb5;
+}
+
+nav ul li a.modo-oscuro {
+    color: #ddd;
+}

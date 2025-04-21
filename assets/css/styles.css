@@ -1,0 +1,48 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0064e6f2;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    .dispositivo img {
+        width: 100px; /* Ajusta el tamaño en pantallas pequeñas */
+    }
+}
+
+#bienvenida {
+    display: flex; /* Activa el modelo de caja Flexbox */
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    text-align: center; /* Alinea el texto al centro */
+    height: 20vh; /* Ajusta la altura al 100% del área visible */
+    background-color: #E8F5E9; /* Color de fondo opcional */
+    padding: 20px; /* Espaciado interno para una presentación cómoda */
+}
